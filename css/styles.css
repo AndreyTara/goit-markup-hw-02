@@ -161,9 +161,13 @@ a {
 
 .team-img {}
 
-.team-subtitle {}
+.team-subtitle {
+	text-transform: capitalize;
+}
 
-.team-text {}
+.team-text {
+	text-transform: capitalize;
+}
 
 
 .portfolio {}
@@ -176,9 +180,13 @@ a {
 
 .portfolio-img {}
 
-.portfolio-subtitle {}
+.portfolio-subtitle {
+	text-transform: capitalize;
+}
 
-.portfolio-text {}
+.portfolio-text {
+	text-transform: capitalize;
+}
 
 
 .footer {
