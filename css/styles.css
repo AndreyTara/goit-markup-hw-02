@@ -163,7 +163,9 @@ a {
 
 .team-list {}
 
-.team-item {}
+.team-item {
+	background-color: #FFFFFF;
+}
 
 .team-img {}
 
