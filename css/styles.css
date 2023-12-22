@@ -80,13 +80,12 @@ a {
 	color: #2E2F42;
 }
 
-.header-menu-link:hover {
+.header-menu-link:hover,
+.header-menu-link:focus,
+.header-menu-link:active {
 	color: #404BBF;
 }
 
-.header-menu-link:focus {
-	color: #404BBF;
-}
 
 .header-address {
 	font-style: normal;
@@ -146,7 +145,7 @@ a {
 .skills-item {}
 
 .skills-subtitle {
-text-align: center;
+	text-align: center;
 }
 
 .skills-text {
