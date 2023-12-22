@@ -85,7 +85,7 @@ a {
 }
 
 .header-menu-link:focus {
-	text-decoration: underline;
+	color: #404BBF;
 }
 
 .header-address {
