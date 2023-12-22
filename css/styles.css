@@ -136,10 +136,7 @@ a {
 	background-color: #404BBF;
 }
 
-.skills {
-	background-color: #F4F4FD;
-
-}
+.skills {}
 
 .skills-list {}
 
@@ -154,7 +151,6 @@ a {
 	text-align: center;
 	text-transform: capitalize;
 }
-
 
 .team {
 	background-color: #F4F4FD;
