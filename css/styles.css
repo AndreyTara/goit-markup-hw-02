@@ -7,6 +7,7 @@ body {
 	line-height: calc(24/16);
 	letter-spacing: 0.02em;
 	color: #2E2F42;
+	background-color: #FFFFFF;
 }
 
 ul,
@@ -22,17 +23,17 @@ a {
 	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
 	font-weight: 700;
-	line-height: calc(21/18);
+	line-height: 1.17;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-}
-
-.logo span {
 	color: #4D5AE5;
 }
 
+.logo span {
+	color: #2E2F42;
+}
+
 .visually-hidden {
-	position: absolute;
 	width: 1px;
 	height: 1px;
 	margin: -1px;
@@ -46,21 +47,23 @@ a {
 .title {
 	font-size: 36px;
 	font-weight: 700;
-	line-height: calc(40/36);
+	line-height: 1.11;
 	letter-spacing: 0.02em;
 }
 
 .subtitle {
 	font-size: 20px;
 	font-weight: 500;
-	line-height: calc(24/20);
+	line-height: 1.20;
 }
 
 .text {
 	color: #434455;
 }
 
-.header {}
+.header {
+	color: #2E2F42;
+}
 
 .header-menu {}
 
@@ -82,7 +85,9 @@ a {
 	text-decoration: underline;
 }
 
-.header-address {}
+.header-address {
+	font-style: normal;
+}
 
 
 .header-address-item {}
@@ -95,16 +100,18 @@ a {
 	color: #404BBF;
 }
 
-.mian {}
+.mian {
+	color: #2E2F42;
+}
 
 .hero {
-	background: #2E2F42;
+	background-color: #2E2F42;
 }
 
 .hero-title {
 	font-size: 56px;
 	font-weight: 700;
-	line-height: 60px;
+	line-height: 1.07;
 	letter-spacing: 0.02em;
 	text-align: center;
 	color: #FFFFFF;
@@ -114,18 +121,24 @@ a {
 	font-family: inherit;
 	font-size: 16px;
 	font-weight: 500;
-	line-height: calc(24/16);
+	line-height: 1.50;
 	letter-spacing: 0.04em;
 	color: #FFFFFF;
 	background-color: #4D5AE5;
+	cursor: pointer;
 }
 
 .hero-button:hover {
 	background-color: #404BBF;
 }
 
+.hero-button:focus {
+	background-color: #404BBF;
+}
 
-.skills {}
+.skills {
+	letter-spacing: 0.02em
+}
 
 .skills-list {}
 
@@ -137,7 +150,7 @@ a {
 
 
 .team {
-	background: #F4F4FD;
+	background-color: #F4F4FD;
 }
 
 .team-title {}
@@ -169,10 +182,12 @@ a {
 
 
 .footer {
-	background: #2E2F42;
+	background-color: #2E2F42;
 }
 
-.footer-logo {
+.footer-logo {}
+
+.footer-logo span {
 	color: #F4F4FD;
 }
 
