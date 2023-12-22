@@ -26,11 +26,6 @@ a {
 	line-height: 1.17;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	color: #4D5AE5;
-}
-
-.logo>span {
-	color: #2E2F42;
 }
 
 .visually-hidden {
@@ -68,7 +63,13 @@ a {
 
 .header-menu {}
 
-.header-menu-logo {}
+.header-menu-logo {
+	color: #4D5AE5;
+}
+
+.header-menu-logo>span {
+	color: #2E2F42;
+}
 
 .header-menu-list {}
 
@@ -184,9 +185,11 @@ a {
 	background-color: #2E2F42;
 }
 
-.footer-logo {}
+.footer-logo {
+	color: #4D5AE5;
+}
 
-.footer-logo span {
+.footer-logo>span {
 	color: #F4F4FD;
 }
 
