@@ -55,6 +55,7 @@ a {
 	font-size: 20px;
 	font-weight: 500;
 	line-height: 1.20;
+	letter-spacing: 0.02em;
 }
 
 .text {
@@ -136,9 +137,7 @@ a {
 	background-color: #404BBF;
 }
 
-.skills {
-	letter-spacing: 0.02em
-}
+.skills {}
 
 .skills-list {}
 
