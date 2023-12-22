@@ -180,6 +180,7 @@ a {
 
 .portfolio-title {
 	text-align: center;
+	text-transform: capitalize 
 }
 
 .portfolio-list {}
