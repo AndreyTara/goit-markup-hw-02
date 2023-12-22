@@ -27,13 +27,6 @@ a {
 }
 
 .visually-hidden {
-	/* width: 1px;
-	height: 1px; */
-	/* margin: -1px;
-	border: 0;
-	padding: 0; */
-	/* white-space: nowrap; */
-	clip-path: inset(100%);
 	overflow: hidden;
 }
 
@@ -133,6 +126,10 @@ a {
 }
 
 .hero-button:focus {
+	background-color: #404BBF;
+}
+
+.hero-button:active {
 	background-color: #404BBF;
 }
 
