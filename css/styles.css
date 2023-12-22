@@ -17,6 +17,10 @@ a {
 	text-decoration: none;
 }
 
+address {
+	font-style: normal;
+}
+
 .logo {
 	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
@@ -71,17 +75,20 @@ a {
 	color: #2E2F42;
 }
 
-.header-menu-link:hover,
-.header-menu-link:focus,
+
 .header-menu-link:active {
 	color: #404BBF;
 }
 
-
-.header-address {
-	font-style: normal;
+.header-menu-link:hover {
+	color: #404BBF;
 }
 
+.header-menu-link:focus {
+	color: #404BBF;
+}
+
+.header-address {}
 
 .header-address-item {}
 
@@ -93,8 +100,7 @@ a {
 	color: #404BBF;
 }
 
-.main {
-}
+.main {}
 
 .hero {
 	background-color: #2E2F42;
