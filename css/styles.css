@@ -1,0 +1,181 @@
+@import 'node_modules/modern-normalize/modern-normalize.css';
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: calc(24/16);
+	letter-spacing: 0.02em;
+	color: #2E2F42;
+}
+
+ul,
+ol {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.logo {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: calc(21/18);
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+
+.logo span {
+	color: #4D5AE5;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	overflow: hidden;
+}
+
+.title {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: calc(40/36);
+	letter-spacing: 0.02em;
+}
+
+.subtitle {
+	font-size: 20px;
+	font-weight: 500;
+	line-height: calc(24/20);
+}
+
+.text {
+	color: #434455;
+}
+
+.header {}
+
+.header-menu {}
+
+.header-menu-logo {}
+
+.header-menu-list {}
+
+.header-menu-item {}
+
+.header-menu-link {
+	font-weight: 500;
+}
+
+.header-menu-link:hover {
+	color: #404BBF;
+}
+
+.header-menu-link:active {
+	text-decoration: underline;
+}
+
+.header-address {}
+
+
+.header-address-item {}
+
+.header-address-link {
+	color: #434455;
+}
+
+.header-address-link:hover {
+	color: #404BBF;
+}
+
+.mian {}
+
+.hero {
+	background: #2E2F42;
+}
+
+.hero-title {
+	font-size: 56px;
+	font-weight: 700;
+	line-height: 60px;
+	letter-spacing: 0.02em;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.hero-button {
+	font-family: inherit;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: calc(24/16);
+	letter-spacing: 0.04em;
+	color: #FFFFFF;
+	background-color: #4D5AE5;
+}
+
+.hero-button:hover {
+	background-color: #404BBF;
+}
+
+
+.skills {}
+
+.skills-list {}
+
+.skills-item {}
+
+.skills-subtitle {}
+
+.skills-text {}
+
+
+.team {
+	background: #F4F4FD;
+}
+
+.team-title {}
+
+.team-list {}
+
+.team-item {}
+
+.team-img {}
+
+.team-subtitle {}
+
+.team-text {}
+
+
+.portfolio {}
+
+.portfolio-title {}
+
+.portfolio-list {}
+
+.portfolio-item {}
+
+.portfolio-img {}
+
+.portfolio-subtitle {}
+
+.portfolio-text {}
+
+
+.footer {
+	background: #2E2F42;
+}
+
+.footer-logo {
+	color: #F4F4FD;
+}
+
+.footer-text {
+	color: #F4F4FD;
+}
